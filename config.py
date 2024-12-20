@@ -65,7 +65,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = "BQFarU4Au9rhqmFbkQEAy5g4akq_f6vnAgqek_QNslwiQ3uHhNFKvMVMQNbVtoB9kS_t6qeCgETjyh0VtpibBfH6xs9A1tqPx1tg0XhseA6C9fBx8tijmgzPTut6LZoPlWKpQGx-QrZsxbEHlUwfsLncuVyvFGRvsmYL4C8ygFROI82jjKxrjYefolXYSv1C9265nDQiVEtuQ9qvm8pAz5iFIl5grEyEBXr4c9jP7-ajh_QqCUc3fRvB_V2oE8HrcoEOxzJAI-YzaeyBdLsOWWTPhchVPJnCur2aeXwjK-3FAcZ_r_1QUybkRBekI1bBj3dGQisbtrqnrZaBI78SeL-m9r4YCQAAAAHd7R-ZAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -81,10 +81,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org//file/25115719697ed91ef5672.jpg"
+    "START_IMG_URL", "https://graph.org/file/2a8f51537c4b09def0b5a-686a24f38209600f34.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org//file/389a372e8ae039320ca6c.png"
+    "PING_IMG_URL", "https://graph.org/file/61e2f285f190e8c67326a-c775c820c6850351ee.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org//file/3dfcffd0c218ead96b102.png"
 STATS_IMG_URL = "https://graph.org//file/99a8a9c13bb01f9ac7d98.png"
