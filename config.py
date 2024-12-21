@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = "22719822"
-API_HASH = "489db27dc5ce33203dcea7e1c0a2aae2"
+API_ID = "23539804"
+API_HASH = "a174f115853c3cc48b9d571329dd32f3"
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = "7174246611:AAHFzDuLe5wnCQYMIPmE9o5GtQdoptJLcfw"
@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/rumuru771/recreation2.0",
+    "https://github.com/CyberPixelPro/AviaxMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -65,7 +65,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "BQFarU4Au9rhqmFbkQEAy5g4akq_f6vnAgqek_QNslwiQ3uHhNFKvMVMQNbVtoB9kS_t6qeCgETjyh0VtpibBfH6xs9A1tqPx1tg0XhseA6C9fBx8tijmgzPTut6LZoPlWKpQGx-QrZsxbEHlUwfsLncuVyvFGRvsmYL4C8ygFROI82jjKxrjYefolXYSv1C9265nDQiVEtuQ9qvm8pAz5iFIl5grEyEBXr4c9jP7-ajh_QqCUc3fRvB_V2oE8HrcoEOxzJAI-YzaeyBdLsOWWTPhchVPJnCur2aeXwjK-3FAcZ_r_1QUybkRBekI1bBj3dGQisbtrqnrZaBI78SeL-m9r4YCQAAAAHd7R-ZAA"
+STRING1 = "BQFnMFwANQiX7OMh-kfkEsGeg5IzFhdkPjo4Du7LjFJWoVuRTPmfGZ-Y7kA4iQ5YgyGU6vRKlp0BhefCAatZJpj-tMIb3HR5pxmKw6Z0yVEtDp5nLxiJXqOzljCrdkoyuBlCTVepe9LI3sh0sfxY4wjSOakGSSpdQVtPAPDAHoc6n9u80WRHWnb8BLYJj38RQ9BXu4s5Rk_-JaHpcF4VzsTBg6h1GRJwzaUvM3IvYoCYmK2TpuztMTiW2VuX5S_YSusAuF-hIWDTJD3M6xvyxCOn94-6d640XcDJYsF56dwlQ-1ULQj7Yj08kPmceMWzYs75jYpeELRN6GdWF3TPUFfFhoUAAAAAHObTqWAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
