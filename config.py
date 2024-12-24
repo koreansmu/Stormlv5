@@ -19,7 +19,7 @@ MONGO_DB_URI = "mongodb+srv://fidixi3663:w7rvlxmDd5lsX9ix@cluster0.0k1an50.mongo
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 6000))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = -1002068576120
+LOG_GROUP_ID = -1002486247075
 
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = 5960968099
@@ -65,7 +65,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "BQFnMFwAoj_jv1JH4y7ryXO3s-ErpBeBGVee4TiQu1MIVcxK0ysL-6R2zP4uPfMdI7niPy0Okj2ez3IBnmjG-5wMBPUIUDqtGEzqBUxueprq3bDiM5U7jPLvtdsRO5Z9sxpInpDZGA9RriN8XyqPgkLzear2xTQl9Jd0T-KfF1PlyNpR7xyfsK7zOffbtcaqSXz2tPnDBtUNPF47yR1dXmEHi8ksrgwiUkfkDgqybhwVjorn7EsWcVjvpi-85eV0Lfkskupfn5iwf52MvZhaf2LBRwsunPkvHBlJVl_Ajen_vJPMEMDSQm94MKkybhV48B_M6KBOZDYnx0db5R4kh70XSx9VYwAAAAHObTqWAA"
+STRING1 = "BQFnMFwAgHmfwoNKs_8Canjb-yjh9xDk_G3hX3M7f_-C0aDSwcxpM1VfmLiSjcqhi_IaGEkXxFAZk-9ftQEXIQ2l85lK3INW7huiV3YUVl7e1V9oHf9K9VDvt4n9ko1BCLhTl7KYsPhCecPveJIanGsWQOVtv7WnFuctjEBGplexJlSopp2zR6gHULFAqcvs-sTytOjTebXh9or6iHaXXgqwMgZH0G5dT88paJ3rzyFg-9-S221NvK6Ja_m4CXokZooe3HpbM1LGdfveEdGk4jFuVAkKlE_OnNmAYcS6XyH4yzEnHngX0NgQYT5Og5lFaPNbLmbrkhoSUp6auB50cI-LiS7hOwAAAAHObTqWAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
