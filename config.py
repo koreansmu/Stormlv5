@@ -20,7 +20,8 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 6000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+#LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOG_GROUP_ID = -1002064111110
 
 # Get this value from @Hot_Girl_Robot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "6257927828"))
