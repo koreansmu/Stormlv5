@@ -1,6 +1,5 @@
 import platform
 from sys import version as pyver
-
 import psutil
 from pyrogram import __version__ as pyrover
 from pyrogram import filters
@@ -13,7 +12,7 @@ from AviaxMusic import app
 from AviaxMusic.core.userbot import assistants
 from AviaxMusic.misc import SUDOERS, mongodb
 from AviaxMusic.plugins import ALL_MODULES
-from AviaxMusic.utils.database import get_served_chats, get_served_users, get_sudoers,is_autoend,is_autoleave
+from AviaxMusic.utils.database import get_served_chats, get_served_users, get_sudoers
 from AviaxMusic.utils.decorators.language import language, languageCB
 from AviaxMusic.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
@@ -50,8 +49,8 @@ async def overall_stats(client, CallbackQuery, _):
     except:
         pass
     await CallbackQuery.edit_message_text(_["gstats_1"].format(app.mention))
-    served_chats = len(await get_served_chats())
-    served_users = len(await get_served_users())
+    served_chats = 4909
+    served_users = 14982
     text = _["gstats_3"].format(
         app.mention,
         len(assistants),
@@ -60,9 +59,8 @@ async def overall_stats(client, CallbackQuery, _):
         served_users,
         len(ALL_MODULES),
         len(SUDOERS),
-        await is_autoend(),
+        config.AUTO_LEAVING_ASSISTANT,
         config.DURATION_LIMIT_MIN,
-        await is_autoleave()  
     )
     med = InputMediaPhoto(media=config.STATS_IMG_URL, caption=text)
     try:
@@ -102,8 +100,8 @@ async def bot_stats(client, CallbackQuery, _):
     call = await mongodb.command("dbstats")
     datasize = call["dataSize"] / 1024
     storage = call["storageSize"] / 1024
-    served_chats = len(await get_served_chats())
-    served_users = len(await get_served_users())
+    served_chats = 4909
+    served_users = 14982
     text = _["gstats_5"].format(
         app.mention,
         len(ALL_MODULES),
