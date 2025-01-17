@@ -16,7 +16,7 @@ BOT_TOKEN = "7174246611:AAH9cXocdrT_xlSIcUXtpuYPNKP0C6ou6H4"
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = "mongodb+srv://fidixi3663:w7rvlxmDd5lsX9ix@cluster0.0k1an50.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 6000))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 9999))
 
 # Chat id of a group for logging bot's activities
 LOG_GROUP_ID = -1002064111110
@@ -32,12 +32,10 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/CyberPixelPro/AviaxMusic",
+    "https://github.com/koreansmu/recreationLV"
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
-GIT_TOKEN = getenv(
-    "GIT_TOKEN", None
-)  # Fill this variable if your upstream repository is private
+GIT_TOKEN = getenv("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"  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/STORM_TECHH")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/STORM_CORE")
@@ -55,7 +53,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 50))
 
 
 # Telegram audio and video file size limit (in bytes)
@@ -65,7 +63,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "BQFnMFwAgHmfwoNKs_8Canjb-yjh9xDk_G3hX3M7f_-C0aDSwcxpM1VfmLiSjcqhi_IaGEkXxFAZk-9ftQEXIQ2l85lK3INW7huiV3YUVl7e1V9oHf9K9VDvt4n9ko1BCLhTl7KYsPhCecPveJIanGsWQOVtv7WnFuctjEBGplexJlSopp2zR6gHULFAqcvs-sTytOjTebXh9or6iHaXXgqwMgZH0G5dT88paJ3rzyFg-9-S221NvK6Ja_m4CXokZooe3HpbM1LGdfveEdGk4jFuVAkKlE_OnNmAYcS6XyH4yzEnHngX0NgQYT5Og5lFaPNbLmbrkhoSUp6auB50cI-LiS7hOwAAAAHObTqWAA"
+STRING1 = "BQAf70YAIBX66on4Z71K23vUqjEB8re-pdCVez2y8mePSL-kLEVhDITZ_eouEia6Tlt4JQKD8OFKzfV4Y4bpwCO9NGD3OPqBztLJb1MpCRTcaODVoS1KqTIIeYDWbmwNoDJki1sAa-x2eLno7gSpTrztlYTMnaUh6bQnBrUz66P5Al6gOipQMzHba5YbE-d-tkvzEAEqR2DwckIqMe_qz5Dwd5p30DKZ05LAxT36QACfuW8bUlmjxonUZE6Z5BibUyKjLLDoXXyxTIUaP1cnRTrL05Wz5oSL1JGwuFkaMuqz00BhrCvfaknkIPlpf8mLG2Y6TjjISYIxe7_BFsAo4as0SBzvEAAAAAHObTqWAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
