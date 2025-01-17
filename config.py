@@ -48,8 +48,8 @@ PRIVACY_LINK = getenv("PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-Avi
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = "2d3fd5ccdd3d43dda6f17864d8eb7281"
+SPOTIFY_CLIENT_SECRET = "48d311d8910a4531ae81205e1f754d27"
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
