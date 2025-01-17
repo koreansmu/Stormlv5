@@ -35,7 +35,7 @@ UPSTREAM_REPO = getenv(
     "https://github.com/koreansmu/recreationLV"
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
-GIT_TOKEN = getenv("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"  # Fill this variable if your upstream repository is private
+GIT_TOKEN = "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" # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/STORM_TECHH")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/STORM_CORE")
